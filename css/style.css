@@ -1,0 +1,74 @@
+body {
+    padding: 40px 60px 0 60px;
+    margin:  0px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+
+}
+ .list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}    
+.list li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    color: grey;
+}
+.button-group {
+    display: flex;
+    align-items: center;
+}
+
+.button-group button {
+    padding: 10px 50px;
+    margin-left: 10px;
+    /* border-radius: 20px; */
+    font-size: 15px;
+    font-weight: 700;
+    background-color: blueviolet;
+    color: aliceblue;
+
+}    
+
+.heading-text {
+    font-size: 50px;
+    padding-top: 200;
+    margin-top: 900;
+    font-family: sans-serif;
+    font-weight: 900;
+     /* border: 1px solid red;   */
+     text-align: left;
+    width: 30%;
+    color: blueviolet;
+}
+.description{
+    width: 25%;
+    color:grey;
+    font-family: sans-serif;
+}
+.nav-button{
+    padding: 10px 50px;
+    margin-left: 10px;
+    border-radius: 10px; 
+    font-size: 20px;
+    font-weight: 700;
+     border: 1px solid white;
+    background-color: blueviolet;
+    color: aliceblue;
+    margin-top: 50px;
+}
+.Header{
+    position: absolute;
+    right: 0px;
+    top: 160px;
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 900px;
+}
